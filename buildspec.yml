@@ -6,7 +6,7 @@ phases:
             - echo "Build block"
             - ls
             - echo "Running tests to check if "Sudip" present in index.html file"
-            - grep "Sudip" index.html
+            - grep "SUDIP" index.html
     post_build:
         commands:
             - echo "Post build phase"
